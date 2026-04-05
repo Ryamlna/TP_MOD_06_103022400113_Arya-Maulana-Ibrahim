@@ -1,45 +1,26 @@
 ﻿using System;
-using System.Diagnostics;
 
-class SayaMusicTrack
+class Program
 {
-    private int id;
-    private int playCount;
-    private string title;
-
-    public SayaMusicTrack(string title)
+    static void Main(string[] args)
     {
-        Debug.Assert(title != null, "Judul tidak boleh null");
-        Debug.Assert(title.Length <= 100, "Judul maksimal 100 karakter");
-
-        Random rand = new Random();
-        this.id = rand.Next(10000, 99999);
-        this.title = title;
-        this.playCount = 0;
-    }
-
-    public void IncreasePlayCount(int count)
-    {
-        Debug.Assert(count <= 10000000, "Penambahan maksimal 10 juta");
-
         try
         {
-            checked
+            SayaMusicTrack lagu1 = new SayaMusicTrack("Hindia - Evaluasi");
+            lagu1.IncreasePlayCount(100);
+            lagu1.PrintTrackDetails();
+
+            SayaMusicTrack laguError = new SayaMusicTrack(new string('A', 101));
+
+            SayaMusicTrack lagu2 = new SayaMusicTrack("Overflow Test");
+            for (int i = 0; i < 100; i++)
             {
-                playCount += count;
+                lagu2.IncreasePlayCount(int.MaxValue);
             }
         }
-        catch (OverflowException)
+        catch (Exception e)
         {
-            Console.WriteLine("Terjadi overflow!");
+            Console.WriteLine("Terjadi error: " + e.Message);
         }
-    }
-
-    public void PrintTrackDetails()
-    {
-        Console.WriteLine("ID: " + id);
-        Console.WriteLine("Judul: " + title);
-        Console.WriteLine("Play Count: " + playCount);
-        Console.WriteLine("---------------------");
     }
 }
