@@ -31,15 +31,15 @@ class SayaMusicTrack
         }
         catch (OverflowException)
         {
-            Console.WriteLine("Terjadi overflow!");
+            Console.WriteLine("Terjadi overflow! Play count melebihi batas.");
         }
     }
 
     public void PrintTrackDetails()
     {
         Console.WriteLine("ID: " + id);
-        Console.WriteLine("Judul: " + title);
+        Console.WriteLine("Title: " + title);
         Console.WriteLine("Play Count: " + playCount);
-        Console.WriteLine("---------------------");
+        Console.WriteLine("---------------------------");
     }
 }

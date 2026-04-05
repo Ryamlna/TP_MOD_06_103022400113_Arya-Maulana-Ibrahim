@@ -1,0 +1,73 @@
+﻿using System;
+using System.Diagnostics;
+
+class SayaMusicTrack
+{
+    private static readonly Random rand = new Random();
+
+    private int id;
+    private int playCount;
+    private string title;
+
+    public SayaMusicTrack(string title)
+    {
+        if (title == null)
+            throw new ArgumentNullException(nameof(title), "Judul tidak boleh null");
+        if (title.Length > 100)
+            throw new ArgumentException("Judul maksimal 100 karakter", nameof(title));
+
+        this.id = rand.Next(10000, 99999);
+        this.title = title;
+        this.playCount = 0;
+    }
+
+    public void IncreasePlayCount(int count)
+    {
+        if (count < 0)
+            throw new ArgumentOutOfRangeException(nameof(count), "Penambahan tidak boleh negatif");
+        if (count > 10000000)
+            throw new ArgumentOutOfRangeException(nameof(count), "Penambahan maksimal 10 juta");
+
+        try
+        {
+            checked
+            {
+                playCount += count;
+            }
+        }
+        catch (OverflowException)
+        {
+            Console.WriteLine("Terjadi overflow! Play count melebihi batas.");
+        }
+    }
+
+    public void PrintTrackDetails()
+    {
+        Console.WriteLine("ID: " + id);
+        Console.WriteLine("Title: " + title);
+        Console.WriteLine("Play Count: " + playCount);
+        Console.WriteLine("---------------------------");
+    }
+}
+
+class Program
+{
+    public static void Main()
+    {
+        // Simple demonstration of SayaMusicTrack usage
+        try
+        {
+            var track = new SayaMusicTrack("Contoh Lagu");
+            track.IncreasePlayCount(150);
+            track.PrintTrackDetails();
+
+            // Uncomment to test validation/overflow behavior:
+            // track.IncreasePlayCount(-1); // throws
+            // track.IncreasePlayCount(2000000000); // may overflow
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Error: " + ex.Message);
+        }
+    }
+}

@@ -1,0 +1,15 @@
+D:\TP ( KPL )\TP_MOD_06_103022400113_Arya Maulana Ibrahim\TP_MOD_06_103022400113_Arya Maulana Ibrahim\obj\Debug\net10.0\TP_MOD_06_103022400113_Arya Maulana Ibrahim.GeneratedMSBuildEditorConfig.editorconfig
+D:\TP ( KPL )\TP_MOD_06_103022400113_Arya Maulana Ibrahim\TP_MOD_06_103022400113_Arya Maulana Ibrahim\obj\Debug\net10.0\TP_MOD_06_103022400113_Arya Maulana Ibrahim.AssemblyInfoInputs.cache
+D:\TP ( KPL )\TP_MOD_06_103022400113_Arya Maulana Ibrahim\TP_MOD_06_103022400113_Arya Maulana Ibrahim\obj\Debug\net10.0\TP_MOD_06_103022400113_Arya Maulana Ibrahim.AssemblyInfo.cs
+D:\TP ( KPL )\TP_MOD_06_103022400113_Arya Maulana Ibrahim\TP_MOD_06_103022400113_Arya Maulana Ibrahim\obj\Debug\net10.0\TP_MOD_06_103022400113_Arya Maulana Ibrahim.csproj.CoreCompileInputs.cache
+D:\TP ( KPL )\TP_MOD_06_103022400113_Arya Maulana Ibrahim\TP_MOD_06_103022400113_Arya Maulana Ibrahim\obj\Debug\net10.0\TP_MOD_06_103022400113_Arya Maulana Ibrahim.sourcelink.json
+D:\TP ( KPL )\TP_MOD_06_103022400113_Arya Maulana Ibrahim\TP_MOD_06_103022400113_Arya Maulana Ibrahim\bin\Debug\net10.0\TP_MOD_06_103022400113_Arya Maulana Ibrahim.exe
+D:\TP ( KPL )\TP_MOD_06_103022400113_Arya Maulana Ibrahim\TP_MOD_06_103022400113_Arya Maulana Ibrahim\bin\Debug\net10.0\TP_MOD_06_103022400113_Arya Maulana Ibrahim.deps.json
+D:\TP ( KPL )\TP_MOD_06_103022400113_Arya Maulana Ibrahim\TP_MOD_06_103022400113_Arya Maulana Ibrahim\bin\Debug\net10.0\TP_MOD_06_103022400113_Arya Maulana Ibrahim.runtimeconfig.json
+D:\TP ( KPL )\TP_MOD_06_103022400113_Arya Maulana Ibrahim\TP_MOD_06_103022400113_Arya Maulana Ibrahim\bin\Debug\net10.0\TP_MOD_06_103022400113_Arya Maulana Ibrahim.dll
+D:\TP ( KPL )\TP_MOD_06_103022400113_Arya Maulana Ibrahim\TP_MOD_06_103022400113_Arya Maulana Ibrahim\bin\Debug\net10.0\TP_MOD_06_103022400113_Arya Maulana Ibrahim.pdb
+D:\TP ( KPL )\TP_MOD_06_103022400113_Arya Maulana Ibrahim\TP_MOD_06_103022400113_Arya Maulana Ibrahim\obj\Debug\net10.0\TP_MOD_06_103022400113_Arya Maulana Ibrahim.dll
+D:\TP ( KPL )\TP_MOD_06_103022400113_Arya Maulana Ibrahim\TP_MOD_06_103022400113_Arya Maulana Ibrahim\obj\Debug\net10.0\refint\TP_MOD_06_103022400113_Arya Maulana Ibrahim.dll
+D:\TP ( KPL )\TP_MOD_06_103022400113_Arya Maulana Ibrahim\TP_MOD_06_103022400113_Arya Maulana Ibrahim\obj\Debug\net10.0\TP_MOD_06_103022400113_Arya Maulana Ibrahim.pdb
+D:\TP ( KPL )\TP_MOD_06_103022400113_Arya Maulana Ibrahim\TP_MOD_06_103022400113_Arya Maulana Ibrahim\obj\Debug\net10.0\TP_MOD_06_103022400113_Arya Maulana Ibrahim.genruntimeconfig.cache
+D:\TP ( KPL )\TP_MOD_06_103022400113_Arya Maulana Ibrahim\TP_MOD_06_103022400113_Arya Maulana Ibrahim\obj\Debug\net10.0\ref\TP_MOD_06_103022400113_Arya Maulana Ibrahim.dll

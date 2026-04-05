@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TP_MOD_06_103022400113_Arya Maulana Ibrahim")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c39e55bc2b2eb5cbb6b276432a2c73080007b9d")]
 [assembly: System.Reflection.AssemblyProductAttribute("TP_MOD_06_103022400113_Arya Maulana Ibrahim")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TP_MOD_06_103022400113_Arya Maulana Ibrahim")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

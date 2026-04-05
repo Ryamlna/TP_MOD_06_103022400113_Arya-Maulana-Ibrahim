@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "TP_MOD_06_103022400113_Arya Maulana Ibrahim/1.0.0": {
+        "runtime": {
+          "TP_MOD_06_103022400113_Arya Maulana Ibrahim.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TP_MOD_06_103022400113_Arya Maulana Ibrahim/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
